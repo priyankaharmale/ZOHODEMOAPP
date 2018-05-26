@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bacground_new"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1e4b6c"
+
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            app:srcCompat="@mipmap/logo_large"
+                            android:layout_centerInParent="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Start Over"
+                            android:id="@+id/tv_interform_exit"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/wlcTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName"
+                        android:textAllCaps="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/et_internachi_member_no_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/membership_icon"
+                        android:ems="10"
+                        android:hint="@string/member"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#777777" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="Your Client Info"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/et_first_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/user_icon"
+                        android:ems="10"
+                        android:hint="First Name"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#777777" />
+
+                    <EditText
+                        android:id="@+id/et_last_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/user_icon"
+                        android:ems="10"
+                        android:hint="Last Name"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#777777" />
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/mail_icon"
+                        android:ems="10"
+                        android:hint="Email Address"
+                        android:padding="10dp"
+                        android:textColorHint="#777777"
+                        android:id="@+id/et_email_id"
+                        android:inputType="textEmailAddress" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/telephone_number"
+                        android:ems="10"
+                        android:hint="Mobile No."
+                        android:inputType="phone"
+                        android:padding="10dp"
+                        android:textColorHint="#777777"
+                        android:id="@+id/et_mobile_no" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Property Address."
+                        android:drawableRight="@mipmap/dropdown"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#777777"
+                        android:id="@+id/et_property_add" />
+
+                    <!--<EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Enter Answer"
+                        android:drawableRight="@mipmap/dropdown"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#777777"
+                        android:id="@+id/et_question" />-->
+
+
+                    <TextView
+                        android:id="@+id/productET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/dropdown"
+                        android:ems="10"
+                        android:hint="Choose Product"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColorHint="#777777"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/et_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/dropdown"
+                        android:ems="10"
+                        android:hint="City"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColorHint="#777777" />
+
+                    <EditText
+                        android:id="@+id/et_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/dropdown"
+                        android:ems="10"
+                        android:hint="State"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColorHint="#777777" />
+
+                    <EditText
+                        android:id="@+id/et_zipcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/dropdown"
+                        android:ems="10"
+                        android:hint="Zip Code"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColorHint="#777777" />
+
+
+                    <TextView
+                        android:id="@+id/tv_question"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="This is a?"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff"
+                        android:textColorHint="#777777" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_question"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:padding="2dp"
+                        android:spinnerMode="dialog" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:text="Size Of Attic Door Or Ladder"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textColorHint="#777777" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/second_page_inpoot"
+                            android:ems="10"
+                            android:hint="Width-in inches"
+                            android:inputType="textPersonName"
+                            android:padding="10dp"
+                            android:textColorHint="#777777"
+                            android:id="@+id/et_width" />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/second_page_inpoot"
+                            android:ems="10"
+                            android:hint="Length-in inches"
+                            android:padding="10dp"
+                            android:textColorHint="#777777"
+                            android:id="@+id/et_length"
+                            android:inputType="textPersonName" />
+
+                    </LinearLayout>
+
+                    <!--<EditText
+                        android:id="@+id/et_product_recommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:ems="10"
+                        android:hint="Product Recommendation"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColorHint="#777777" />-->
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_product"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:padding="2dp"
+                        android:spinnerMode="dialog" />
+
+                    <TextView
+                        android:id="@+id/tv_homeownerquestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Does homeowner want coupon?"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff"
+                        android:textColorHint="#777777" />
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_homeowner"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@mipmap/second_page_inpoot"
+                        android:padding="2dp"
+                        android:spinnerMode="dialog" />
+
+                    <Button
+                        android:id="@+id/btn_interncahi_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/submit_button"
+                        android:onClick="onClick"
+                        android:text="SUBMIT"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

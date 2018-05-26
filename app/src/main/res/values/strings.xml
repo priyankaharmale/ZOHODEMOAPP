@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AtticZipper</string>
+    <string name="member">Internachi Membership\nNumber</string>
+
+    <string name="time_our_error">Time out.</string>
+    <string name="can_not_connect">No Internet Connection Available.</string>
+    <string name="auth_fail">Authentication Failed.</string>
+    <string name="server_error">Server error.</string>
+    <string name="netwotk_error">Unable to connect with network.</string>
+    <string name="parser_error">Parse error.</string>
+    <string name="unknow_error_txt">Unknown Error.</string>
+    <string name="edittext_hintaa"><font size="15">Attic Square Feet-Total(Without Area Of Entry)</font></string>
+    <string name="edittext_hintab"><font size="15">Attic Door/Entry Square Feet</font></string>
+    <string name="edittext_hintra"><font size="15">Attic R Value Not Including Entry</font></string>
+    <string name="edittext_hintrb"><font size="15">Attic Door/Entry R Value</font></string>
+</resources>
